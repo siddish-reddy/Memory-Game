@@ -362,3 +362,17 @@ h1 {
 		transform: scale(1);
 	}
 }
+
+@media screen and (min-width:375px) and (max-width:500px){
+
+	#deck{
+		width:350px;
+		min-height: 380px;
+		padding: 32px 30px;
+	}
+
+	#deck .card{
+		height:60px;
+		width: 60px;
+	}
+}
