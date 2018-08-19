@@ -276,6 +276,8 @@ h1 {
 
 #stars {
 	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 20px;
 	font-size: 40px;
 	list-style: none;
 	display: inline-block;
@@ -287,7 +289,14 @@ h1 {
 	list-style: none;
 	display: inline-block;
 }
-
+#time-taken{
+	margin-top: 15px;
+	font-weight: bold;
+	font-style: italic;
+}
+#time-taken::before{
+	content: "It took:  ";
+}
 #replay {
 	background: limegreen;
 	border-radius: 10px;
